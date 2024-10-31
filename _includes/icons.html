@@ -1,7 +1,7 @@
 <div class="icon__list">
   {%- if site.email -%}
   <a href="mailto:{{ site.email }}" class="icon__link" target="_blank">
-    Email
+    {%- include icons/mail.html -%}
   </a>
   {%- endif -%}
   {%- if site.social.github -%}
@@ -21,7 +21,7 @@
   {%- endif -%}
   {%- if site.social.instagram -%}
   <a href="https://www.instagram.com/{{ site.social.instagram | cgi_escape | escape }}" class="icon__link" target="_blank">
-    Instagram
+    {%- include icons/instagram.html -%}
   </a>
   {%- endif -%}
   {%- if site.social.linkedin -%}
@@ -39,26 +39,6 @@
     {%- include icons/codepen.html -%}
   </a>
   {%- endif -%}
-  {%- if site.social.threads -%}
-  <a href="https://threads.net/@{{ site.social.codepen | cgi_escape | escape }}" class="icon__link" target="_blank">
-    Threads
-  </a>
-  {%- endif -%}  
-  {%- if site.social.bluesky -%}
-  <a href="https://bsky.app/{{ site.social.codepen | cgi_escape | escape }}" class="icon__link" target="_blank">
-    BlueSky
-  </a>
-  {%- endif -%}  
-  {%- if site.social.tiktok -%}
-  <a href="https://tiktok.com/@{{ site.social.codepen | cgi_escape | escape }}" class="icon__link" target="_blank">
-    TikTok
-  </a>
-  {%- endif -%}  
-  {%- if site.social.youtube -%}
-  <a href="https://youtube.com/@{{ site.social.codepen | cgi_escape | escape }}" class="icon__link" target="_blank">
-    Youtube
-  </a>
-  {%- endif -%}  
   {%- if site.rss -%}
   <a href="{{ site.rss | relative_url }}" class="icon__link">
     {%- include icons/rss.html -%}
