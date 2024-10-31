@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Introducing the Titterpig Times"
-author: "PennyLeScroche"
+author: Khampheng "PennyLeScroche" Sikkema
+date: 2024-10-30 22:01
 ---
 
 # Welcome to the Blog
