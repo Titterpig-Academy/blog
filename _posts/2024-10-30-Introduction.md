@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing the Titterpig Times"
-author: PennyLeScroche
+author: "PennyLeScroche"
 ---
 
 # Welcome to the Blog
