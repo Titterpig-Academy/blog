@@ -46,19 +46,34 @@
   {%- endif -%}
 </div>-->
 <div class = "icon__list">
+  <table>
+    <tr>
+      <td>Follow Titterpig Academy </td>
   {%- if site.social.instagram -%}
-  <a href="https://www.instagram.com/{{ site.social.instagram }}">
+  <td><a href="https://www.instagram.com/{{ site.social.instagram }}">
     Instagram
-  </a>
+  </a></td>
   {%- endif -%}
   {%- if site.social.tiktok -%}
-  <a href="https://www.tiktok.com/@{{ site.social.instagram }}">
+  <td><a href="https://www.tiktok.com/@{{ site.social.instagram }}">
     TikTok
-  </a>
+  </a></td>
   {%- endif -%}
   {%- if site.social.bluesky -%}
-  <a href="https://www.bsky.app/profile/{{ site.social.instagram }}">
+  <td><a href="https://www.bsky.app/profile/{{ site.social.instagram }}">
     Bluesky
-  </a>
+  </a></td>
   {%- endif -%}
+  {%- if site.social.youtube -%}
+  <td><a href="https://www.youtube.com/@{{ site.social.instagram }}">
+    Youtube
+  </a></td>
+  {%- endif -%}
+  {%- if site.social.threads -%}
+  <td><a href="https://www.threads.net/@{{ site.social.instagram }}">
+    Threads
+  </a></td>
+  {%- endif -%}
+</tr>
+</table>
 </div>
